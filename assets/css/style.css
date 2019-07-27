@@ -1,0 +1,133 @@
+body {
+    
+    background-color:rgb(255, 255, 255);
+        background-image: url("../images/web-back.jpg");
+    
+  }
+  p{
+      color: darkorange;
+  }
+  
+  h1{
+      color: whitesmoke;
+      padding-top: 60px;
+
+  }
+  #jumbo{
+      background-color: black
+  }
+  .hero {
+    /* Sizing */
+    width: 100vw;
+    height: 100vh;
+    
+    /* Flexbox stuff */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    /* Text styles */
+    text-align: center;
+    
+    /* Background styles */
+    background-image: url("../images/neskone.png");
+    background-size: 600px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.hero h1 {
+    /* Text styles */
+    font-size: 5em;
+    
+    /* Margins */
+    margin-top: 0;
+    margin-bottom: 0.5em;
+}
+
+.hero .btn {
+    /* Positioning and sizing */
+    display: block;
+    width: 500px;
+    height: 740px;
+    
+    /* Padding and margins */
+    padding: 1em;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    
+    
+    
+    /* Border styles */
+    border: 3px solid rgb(232, 6, 6);
+    border-radius: 200px;
+    
+    /* Background styles */
+    
+}
+h1{
+    color:white;
+   
+}
+h2{
+    color: white
+}
+
+.info{
+    color: black
+}
+.block-header{
+    color: black
+}
+#about{
+    background-color: black;
+   
+    display: block;
+    width: center;
+    height: center;
+
+}
+.about{
+    padding: 1em;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+
+
+}
+#trivia{
+    background-color: black;
+   
+    display: block;
+    width: center;
+    height: center;
+    margin-top: 10px;
+
+}
+.trivia{
+    color: whitesmoke;
+    
+    
+  
+}
+
+#Gif{
+    background-color: black;
+   
+    display: block;
+    width: center;
+    height: center;
+ margin-left: 10px;
+ margin-top: 10px;
+
+}
+#guess {
+
+    background-color: black;
+   
+    display: block;
+    width: center;
+    height: center;
+ margin-top: 10px;
+}
