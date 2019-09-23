@@ -81,9 +81,8 @@ h2{
 #about2{
 
   text-align: center;
-padding-left: 60px;
-padding-right: 60px;
-padding-top: 30px;
+  
+
 
 }
 
@@ -93,12 +92,16 @@ padding-top: 30px;
     display: block;
     width: center;
     height: center;
-    margin-top: 10px;
+    margin-top: -10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    
 
 }
 .trivia{
     color: whitesmoke;
     padding-top: 20px;
+    
 
     
     
@@ -114,7 +117,13 @@ padding-top: 30px;
  margin-left: 10px;
  margin-top: 10px;
  padding-top: 10px;
+ margin-right: 10px;
+ 
 
+}
+.guess{
+
+    color: aqua;
 }
 #guess {
 
@@ -124,6 +133,10 @@ padding-top: 30px;
     width: center;
     height: center;
  margin-top: 10px;
+ margin-left: 10px;
+ margin-right: 10px;
+ margin-bottom: 10px;
+ float: left;
 }
 main {
     height: 100vh;
@@ -171,11 +184,14 @@ main {
 
     background-color: #000000;
     padding-bottom:100px; 
+    margin-left: 10px;
+    margin-right: 10px;
+   width: 95%;
 }
 
 a {
     color:rgb(38, 15, 240);
-    ma
+    
     
      
     
@@ -187,16 +203,18 @@ a {
     padding-top: 50px;
     
     
+    
 }
 
 #email{
 
-   margin-left: 45%;
-   padding:15px
+   margin-left: 35%;
+   padding:15px;
+   margin-top: 40px;
 }
 #phone{
 
-    margin-left:45%;
+    margin-left:35%;
     margin-top: 40px;
     width: 115px;
     padding: 15px;
@@ -221,21 +239,9 @@ a {
 }
 #ct{
 
-    color: aliceblue;
+    color: rgb(255, 245, 240);
+    
 }
 
 
 
-@media only screen 
-and (min-device-width : 375px) 
-and (max-device-width : 812px)
-and (-webkit-device-pixel-ratio : 3) { 
-
-
-body {
-
-    color: aqua;
-}
-
-
-}
