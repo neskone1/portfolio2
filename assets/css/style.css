@@ -14,7 +14,12 @@ body {
 
   }
   #jumbo{
-      background-color: black
+      background-color: black;
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-top: 100px;
+  margin-bottom: 60px;
+      
   }
   .hero {
     /* Sizing */
@@ -73,6 +78,15 @@ h2{
 
 
 }
+#about2{
+
+  text-align: center;
+padding-left: 60px;
+padding-right: 60px;
+padding-top: 30px;
+
+}
+
 #trivia{
     background-color: black;
    
@@ -84,6 +98,8 @@ h2{
 }
 .trivia{
     color: whitesmoke;
+    padding-top: 20px;
+
     
     
   
@@ -97,6 +113,7 @@ h2{
     height: center;
  margin-left: 10px;
  margin-top: 10px;
+ padding-top: 10px;
 
 }
 #guess {
@@ -123,6 +140,8 @@ main {
     font-size: 4rem;
     font-weight: bold;
     font-family: sans-serif;
+    
+    
   }
   .form-control {
     display: block;
@@ -150,5 +169,57 @@ main {
 
 #contact {
 
-    background-color: #e8cfcf;
+    background-color: #000000;
+    padding-bottom:100px; 
+}
+
+a {
+    color:rgb(38, 15, 240);
+    ma
+    
+     
+    
+}
+
+#info{
+    
+    text-align: center;
+    padding-top: 50px;
+    
+    
+}
+
+#email{
+
+   margin-left: 45%;
+   padding:15px
+}
+#phone{
+
+    margin-left:45%;
+    margin-top: 40px;
+    width: 115px;
+    padding: 15px;
+}
+#me {
+
+    width: 240px;
+    
+  
+    border-radius: 60%;
+    margin-top: 50px
+    
+  
+}
+
+#indexh2{
+    color: aliceblue;
+    
+  
+    
+    
+}
+#ct{
+
+    color: aliceblue;
 }
