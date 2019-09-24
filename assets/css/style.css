@@ -46,6 +46,11 @@ body {
 }
 
 
+#first{
+
+  
+    
+}
     
 
 h1{
@@ -71,10 +76,12 @@ h2{
 
 }
 .about{
-    padding: 1em;
+    
     margin-top: 10px;
     margin-left: auto;
     margin-right: auto;
+    font-size: 13px;
+    text-align: start;
 
 
 }
@@ -86,17 +93,20 @@ h2{
 
 }
 
+
+
 #trivia{
     background-color: black;
    
-    
-    width: center;
-    height: center;
+    position:center;
     margin-top: 10px;
-    margin-left: 1px;
- margin-right: 1px;
-    
-    margin-bottom: 10px;
+    margin-left: 10px;
+ margin-right: 10px;
+ margin-bottom: 10px;
+ width: center;
+ height: center;
+
+ 
     
 
 }
@@ -109,37 +119,48 @@ h2{
     
   
 }
+.gif{
+    color: whitesmoke;
+    padding-top: 10px;
+    
+
+
+}
 
 #Gif{
     background-color: black;
    
+    position:center;
     
-    width: center;
-    height: center;
-    margin-left: 1px;
-    margin-right: 1px;
+    margin-left: 10px;
+    margin-right: 10px;
  
  margin-top: 10px;
  padding-top: 10px;
+ width: center;
+ height: center;
+
  
  margin-bottom: 10px;
  
+ 
 
 }
+
 .guess{
 
     color: aqua;
 }
 #guess {
-
+    position: center;
     background-color: #000000;
-   
    
     width: center;
     height: center;
+position:center;
  margin-top: 10px;
- margin-left: 1px;
- margin-right: 1px;
+ margin-left: 10px;
+ margin-right: 10px;
  margin-bottom: 10px;
  
  
@@ -147,7 +168,7 @@ h2{
 #train{
     background-color: black;
    
-    display: block;
+   
     width: center;
     height: center;
  margin-top: 10px;
@@ -230,10 +251,8 @@ main {
 #contact {
 
     background-color: #000000;
-    padding-bottom:100px; 
-    margin-left: 10px;
-    margin-right: 10px;
-   width: 95%;
+    padding-bottom:50px; 
+    
 }
 
 a {
