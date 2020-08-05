@@ -6,6 +6,10 @@ body {
   }
   p{
       color: whitesmoke;
+      size: 200px;
+      font-family: bree, sans-serif;
+font-weight: 400;
+font-style: italic;
   }
   
   h1{
@@ -55,10 +59,16 @@ body {
 
 h1{
     color:white;
+    font-family: bree, sans-serif;
+font-weight: 600;
+font-style: italic;
    
 }
 h2{
-    color: white
+    color: white;
+    font-family: bree, sans-serif;
+font-weight: 600;
+font-style: italic;
 }
 
 .info{
@@ -82,6 +92,9 @@ h2{
     margin-right: auto;
     font-size: 13px;
     text-align: start;
+    font-family: bree, sans-serif;
+font-weight: 600;
+font-style: italic;
 
 
 }
@@ -89,6 +102,9 @@ h2{
    margin-top: 40px;
   text-align: center;
   font-size: 22px;
+  font-family: bree, sans-serif;
+font-weight: 600;
+font-style: italic;
   
 
 
@@ -268,6 +284,9 @@ a {
     
     text-align: center;
     padding-top: 50px;
+    font-family: bree, sans-serif;
+font-weight: 600;
+font-style: italic;
     
     
     
@@ -353,7 +372,51 @@ a {
 }
 
 
+#project {
 
+   
+    background: url(https://media.giphy.com/media/pOhqA8rf4IwuDoM0QI/giphy.gif);
+    background-size: contain;
+    background-position: top left;
+    -webkit-background-clip: text;
+    color: transparent;
+    font-size: 4rem;
+    font-family: bree, sans-serif;
+font-weight: 600;
+font-style: italic;
+  
+   
+}
+#client {
+ 
+    background: url(https://media.giphy.com/media/pOhqA8rf4IwuDoM0QI/giphy.gif);
+    background-size: contain;
+    background-position: top left;
+    -webkit-background-clip: text;
+    color: transparent;
+    
+    font-family: bree, sans-serif;
+font-weight: 600;
+font-style: italic;
+font-size: 4rem;
+}
+
+
+h3{
+    font-family: bree, sans-serif;
+font-weight: 600;
+font-style: italic;
+font-size: 2rem;
+
+
+}
+
+a{
+    font-family: bree, sans-serif;
+font-weight: 600;
+font-style: italic;
+
+}
 
 
 
